@@ -13,8 +13,6 @@ The servers were `@playwright/mcp`, `chrome-devtools-mcp`, `@modelcontextprotoco
 
 Codex starts optional stdio servers with a cached tool list lazily by default since [openai/codex PR #62366](https://github.com/openai/codex/pull/62366), so mcp-lazy helps less there.
 
-The design follows [mcp-snooze](https://github.com/askmegit/mcp-snooze) (MIT). This is a separate implementation in Rust, without the config-rewriting commands.
-
 ## Install
 
 mcp-lazy runs on macOS and Linux, on Intel and ARM. To install the latest release, run:
